@@ -93,11 +93,11 @@ h1{font-size:34px;font-weight:600;margin:0 0 14px;line-height:1.2}
 .concl{overflow-y:auto}
 .qintro{font-size:15.5px;line-height:1.5;margin:6px 0 12px;max-width:1150px}
 .qgrid{flex:1;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;min-height:0;overflow-y:auto;align-content:start}
-.qbox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;font-size:14px;line-height:1.45}
+.qbox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 15px;font-size:13.5px;line-height:1.42}
 .qbox.dec{border-top:4px solid var(--acc)}
 .qbox.conf{border-top:4px solid var(--ochre)}
 .qbox .qn{font-size:12px;letter-spacing:.06em;color:var(--mute);text-transform:uppercase;margin-bottom:4px}
-.qbox .qq{font-weight:600;font-size:15.5px;margin:0 0 8px}
+.qbox .qq{font-weight:600;font-size:15px;margin:0 0 7px}
 .qbox p{margin:0 0 7px}
 .qbox .qres{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;background:var(--bg);border-radius:8px;padding:7px 10px;margin:6px 0 7px;font-size:13.5px}
 .qbox .qres b{color:var(--acc)}
@@ -553,6 +553,14 @@ h1{font-size:34px;font-weight:600;margin:0 0 14px;line-height:1.2}
       <div class="qn">5 · Detalle para comparar</div>
       <p class="qq">Los valores de ε de los espectros UV-vis, ¿están calculados por cobre o por molécula de complejo? Es decir, ¿se dividió entre la concentración de cobre o entre la del complejo?</p>
       <p><b>Por qué sirve:</b> P1 tiene dos cobres. El cálculo da ε por molécula (19&nbsp;000 M⁻¹ cm⁻¹ a 453 nm), que sería unos 9&nbsp;500 por cobre. Según cuál sea, el cálculo exagera la intensidad unas 2 veces o unas 4 veces respecto a los 5&nbsp;200 medidos. No cambia la posición de la banda, solo cómo se lee su altura.</p>
+    </div>
+    <div class="qbox conf">
+      <div class="qn">6 · Confirma P1 · Raman</div>
+      <p class="qq">¿Se puede tener el Raman del producto en números, y el del complejo antes del O₂ medido igual? ¿Con qué láser (nm), en sólido o en THF, y a qué temperatura?</p>
+      <p><b>Por qué sirve:</b> lo que importa son las bandas <b>nuevas</b> con el O₂. Según el cálculo, P1 las tendría aquí:</p>
+      <div class="qres"><b>~780–810 cm⁻¹</b><span>Cu–O–Cu; con ¹⁸O₂ baja 35–45</span><b>~400–440 cm⁻¹</b><span>Cu–O–Cu; ¹⁸O₂ casi no la mueve</span><b>~1040–1085 cm⁻¹</b><span>S=O del sulfóxido</span></div>
+      <p><b>El láser importa:</b> cerca de 462 nm se refuerzan las bandas del grupo que da el color; el cálculo da bien sus posiciones, no esas alturas.</p>
+      <p class="qojo">En THF, el disolvente tapa parte del espectro. Una banda cerca de 1100 cm⁻¹ sería O₂ entero pegado al cobre (el cálculo lo descarta).</p>
     </div>
   </div>
 </section>
